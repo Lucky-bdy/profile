@@ -20,5 +20,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_SECRET }}
         with:
-          USERNAME: ${{ github.actor }}
+          USERNAME: ${{ github.repository_owner }}
           
